@@ -1,0 +1,66 @@
+PART 3: Deploying on Ethereum Test Network (Sepolia or Holesky)
+
+Step-by-step Guide (with Remix IDE + MetaMask):
+
+1️⃣ Install MetaMask
+
+Go to https://metamask.io/
+
+Add the Chrome/Firefox extension.
+
+Create a wallet and save your Secret Recovery Phrase.
+
+
+2️⃣ Connect to a Test Network
+
+Open MetaMask → Click Networks dropdown → Choose “Sepolia Test Network”.
+If not visible:
+
+Go to Settings → Advanced → Show Test Networks → ON.
+
+
+
+3️⃣ Get Free Test Ether
+
+Visit a Sepolia Faucet:
+👉 https://sepoliafaucet.com/
+👉 or https://faucet.quicknode.com/ethereum/sepolia
+
+Paste your wallet address and request test ETH.
+
+
+4️⃣ Open Remix IDE
+
+Go to https://remix.ethereum.org
+
+Create a new file:
+Bank.sol → paste the first code
+or
+StudentData.sol → paste the second code.
+
+
+5️⃣ Compile the Contract
+
+Click Solidity Compiler (left panel) → choose version 0.8.0 or above → Click Compile.
+
+
+6️⃣ Deploy on Test Network
+
+Go to Deploy & Run Transactions (left panel)
+
+Environment → Select “Injected Provider – MetaMask”
+
+MetaMask will pop up → connect Remix to your wallet.
+
+Click Deploy.
+
+
+7️⃣ Observe Transaction Fee & Gas Value
+
+Once you deploy or perform a transaction:
+
+MetaMask popup shows Gas Fee (e.g., 0.0002 ETH)
+
+Remix console shows the Gas Used and Transaction Hash.
+
+You can also click the transaction link in MetaMask → it opens Etherscan (Sepolia) to view exact Gas Used and Transaction Fee in ETH.
